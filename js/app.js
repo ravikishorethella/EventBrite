@@ -16,6 +16,7 @@ document.getElementById("submitBtn").addEventListener("click", e => {
       const eventsList = events.events.events;
       if (eventsList.length > 0) {
         // printing the results
+        ui.displayEvents(eventsList);
       } else {
         // message
         ui.printMessage(
